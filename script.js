@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     textElement.textContent = currentText.substring(0, charIndex);
 
-    let typingSpeed = isDeleting ? 50 : 100;
+    let typingSpeed = isDeleting ? 40 : 75;
 
     if (!isDeleting && charIndex === currentText.length) {
       typingSpeed = 1000; // Pause before deleting
@@ -39,4 +39,23 @@ document.addEventListener("DOMContentLoaded", () => {
     yearSpan.textContent = new Date().getFullYear();
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  // Toggle show/hide menu
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("show");
+  });
+
+  // Close menu on link click
+  document.querySelectorAll("#menu a").forEach(link => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("show");
+    });
+  });
+});
+
 

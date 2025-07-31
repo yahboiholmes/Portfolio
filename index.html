@@ -6,12 +6,14 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
 <body>
 
   <nav id="navbar">
-    <ul>
+  <div class="nav-container">
+    <div id="logo"><strong>My Portfolio</strong></div>
+    <div id="menu-toggle">&#9776;</div> <!-- Hamburger Icon -->
+    <ul id="menu">
       <li><a href="#homepage">Homepage</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -19,246 +21,210 @@
       <li><a href="#resume">CV/Resume</a></li>
       <li><a href="#contactme">Contact Me</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
 
   <section id="homepage">
     <div class="text-content">
-        <h1 id ="typed-text">Hello, I am H</h1>
-        <p>I am a developer and create projects</p>
-
+        <h1 id="typed-text">Hello, I am H</h1>
+       <p><em>I am a developer passionate about creating<br> responsive websites, intuitive user interfaces,<br> and real-world web solutions.</em></p>
         <div class="social-icons">
             <a href="https://www.facebook.com/yahbomes.23" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://github.com/yahboiholmes" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="www.linkedin.com/in/holmes-jovariel-d-valdez-123224319" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/holmes-jovariel-d-valdez-123224319" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://www.youtube.com/@Crook2318" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
-
     </div>
     <div class="image-wrapper">
-        <img src ="./image/487559681_2404236089939721_7767787227234734152_n.jpg" alt="A picture of me seating">
-        </div>
+        <img src="./image/487559681_2404236089939721_7767787227234734152_n.jpg" alt="A picture of me seating">
+    </div>
   </section>
 
   <br>
-    
- <section id="about">
-  <h2>About Me</h2>
 
-  <!-- Personal Background -->
-  <div class="about-card">
-    <img src="/image/0cc40f2c-7922-498a-b180-2ef4c9a261b6.jpg" alt="Image 1" />
-    <div>
-      <h3>Personal Background</h3>
-      <p>
-        <span class="typewriter">
-        I’m Holmes, a proud graduate with a bachelor's degree in Computer Science. My educational journey has shaped me into a motivated, adaptable, and goal-driven individual, ready to take on new challenges in a professional environment. I’m passionate about continuous learning, personal growth, and contributing to meaningful work—whether through collaboration, creativity, or critical thinking. As I step into the next chapter of my career, I’m excited to explore opportunities where I can make a positive impact and continue developing both personally and professionally.
-      </span>
-      </p>
+  <section id="about">
+    <h2>About Me</h2>
+
+    <div class="about-card">
+      <img src="/image/0cc40f2c-7922-498a-b180-2ef4c9a261b6.jpg" alt="Image 1" />
+      <div>
+        <h3><strong>Personal Background</strong></h3>
+        <p><span class="typewriter"> I’m Holmes, a proud graduate with a bachelor's degree in Computer Science. My educational journey has shaped me into a motivated, adaptable, and goal-driven individual, ready to take on new challenges in a professional environment. I’m passionate about continuous learning, personal growth, and contributing to meaningful work—whether through collaboration, creativity, or critical thinking. As I step into the next chapter of my career, I’m excited to explore opportunities where I can make a positive impact and continue developing both personally and professionally.</span></p>
+      </div>
     </div>
-  </div>
 
-  <!-- Skills -->
-  <div class="about-card">
-    <div>
-      <h3>Skills</h3>
-      <p>
-        <span class="typewriter">
-        Throughout my academic and personal development, I’ve built a strong set of transferable skills that I’m excited to bring into a professional setting. I’m an effective communicator who thrives in collaborative environments and can adapt quickly to new challenges. My strengths lie in problem-solving, critical thinking, and managing tasks efficiently to meet deadlines. I take pride in being dependable, organized, and driven by a continuous desire to learn and grow. With a tech-savvy mindset and a strong sense of professionalism, I’m confident in my ability to contribute positively to any team or organization.
-      </span>
-      </p>
+    <div class="about-card">
+      <img src="/image/keyskills.png" alt="Image 2" />
+      <div>
+        <h3><strong>Skills</strong></h3>
+        <p><span class="typewriter">Throughout my academic and personal development, I’ve built a strong set of transferable skills that I’m excited to bring into a professional setting. I’m an effective communicator who thrives in collaborative environments and can adapt quickly to new challenges. My strengths lie in problem-solving, critical thinking, and managing tasks efficiently to meet deadlines. I take pride in being dependable, organized, and driven by a continuous desire to learn and grow. With a tech-savvy mindset and a strong sense of professionalism, I’m confident in my ability to contribute positively to any team or organization.</span></p>
+      </div>
+  
     </div>
-    <img src="/image/keyskills.png" alt="Image 2" />
-  </div>
 
-  <!-- Career Path -->
-  <div class="about-card">
-    <img src="/image/career.jpg" alt="Image 3" />
-    <div>
-      <h3>Career Path</h3>
-      
-      <p>
-        <span class="typewriter">
-        I began my professional journey in 2019 as a Mechanic Assistant at Automatetricks in Makati City, where I supported senior mechanics in diagnosing and repairing vehicle issues, conducted routine maintenance, and managed service records. In 2023, I transitioned into a customer-facing role as a Barista and Dining Staff at The Coffee Bean & Tea Leaf in Taguig City, where I provided quality service, ensured cleanliness, and maintained a safe and organized workspace. In early 2024, I expanded into tech as a Backend Developer at Taguig Convention Center, applying skills in problem-solving, critical thinking, and time management while managing SQL queries and backend data handling. Most recently, I’ve taken on a more dynamic role at WNS Global Services as a Delta Messaging Specialist in Pasig City. Here, I manage customer service, ticketing, loyalty programs, revenue accounting, disruption support, and data analytics, all within a fast-paced, global airline operations environment. Each of these roles has shaped my adaptability, strengthened my technical and interpersonal skills, and built a foundation for continued growth across diverse fields.
-        </span>
-      </p>
+    <div class="about-card">
+      <img src="/image/career.jpg" alt="Image 3" />
+      <div>
+        <h3><strong>Career Path</strong></h3>
+        <p><span class="typewriter">I began my professional journey in 2019 as a Mechanic Assistant at Automatetricks in Makati City, where I supported senior mechanics in diagnosing and repairing vehicle issues, conducted routine maintenance, and managed service records. In 2023, I transitioned into a customer-facing role as a Barista and Dining Staff at The Coffee Bean & Tea Leaf in Taguig City, where I provided quality service, ensured cleanliness, and maintained a safe and organized workspace. In early 2024, I expanded into tech as a Backend Developer at Taguig Convention Center, applying skills in problem-solving, critical thinking, and time management while managing SQL queries and backend data handling. Most recently, I’ve taken on a more dynamic role at WNS Global Services as a Delta Messaging Specialist in Pasig City. Here, I manage customer service, ticketing, loyalty programs, revenue accounting, disruption support, and data analytics, all within a fast-paced, global airline operations environment. Each of these roles has shaped my adaptability, strengthened my technical and interpersonal skills, and built a foundation for continued growth across diverse fields.</span></p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
-    <br>
+  <br>
 
   <section id="projects">
-  <h2>My Projects</h2>
-  <p>Here are some of the projects I've worked on, including personal, academic, and freelance work. Each one highlights my skills in design, development, and creative problem-solving.</p>
+    <h2>My Projects</h2>
+    <p>Here are some of the projects I've worked on.</p>
 
-  <div class="projects-grid">
-    <!-- Repeat this block for each project -->
-    <div class="project-card">
-      
-      <a href="/image/4ed9f24c-6557-4fb2-be80-103e24a81f5b.jpg" target="_blank">
-        <img src="/image/4ed9f24c-6557-4fb2-be80-103e24a81f5b.jpg" alt="A picture of a semetral computation">
+    <div class="projects-grid">
+      <div class="project-card">
+        <a href="/image/4ed9f24c-6557-4fb2-be80-103e24a81f5b.jpg" target="_blank">
+          <img src="/image/4ed9f24c-6557-4fb2-be80-103e24a81f5b.jpg" alt="A picture of a semetral computation">
         </a>
-      <h3>SEMESTRAL COMPUTATION</h3>
-      <p>An android application created using Java and Android Studio that allows the user to input the grades and determine whether passed or fail</p>
+        <h3><strong>SEMESTRAL COMPUTATION</strong></h3>
+        <p><i>android application created using Java and Android Studio.</i></p>
+      </div>
+
+      <div class="project-card">
+        <a href="/image/1d3dd493-fdbf-4d00-af8d-057720b5bd90.jpg" target="_blank">
+          <img src="/image/1d3dd493-fdbf-4d00-af8d-057720b5bd90.jpg" alt="Project 2">
+        </a>
+        <h3><strong> HAIRSTYLE RECOMMENDER SYSTEM</strong></h3>
+        <p><i>An android application created using Java, Firebase, and Machine Learning.</i></p>
+      </div>
+
+      <div class="project-card">
+        <a href="/image/Untitled.png" target="_blank">
+          <img src="/image/Untitled.png" alt="Movie selection page">
+        </a>
+        <h3><strong> SELECTION PAGE</strong></h3>
+        <p><i>A web app using JavaScript, HTML, CSS, and Movie API</i></p>
+      </div>
+
+      <div class="project-card">
+        <a href="/image/dragon.png" target="_blank">
+          <img src="/image/dragon.png" alt="Dragon">
+        </a>
+        <h3><strong>DRAGON SLAYER</strong></h3>
+        <p><i>A web game built using HTML, CSS, and JavaScript</i></p>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section id="certificate">
+    <h2>Certifications</h2>
+
+    <div class="certificate-grid">
+      <div class="certificate-card">
+        <img src="/image/recpg.jpg" alt="Certificate of Recognition">
+        <div class="certificate-overlay"><p>Certificate of Recognition</p></div>
+      </div>
+      <div class="certificate-card">
+        <img src="/image/top.png" alt="Certificate of Top Performer">
+        <div class="certificate-overlay"><p>Top Performer Award</p></div>
+      </div>
+      <div class="certificate-card">
+        <img src="/image/est (1).png" alt="EF-Set Certificate">
+        <div class="certificate-overlay"><p>English Test</p></div>
+      </div>
+      <div class="certificate-card">
+        <img src="/image/certificate-of_1753844713.png" alt="Certificate of Completion">
+        <div class="certificate-overlay"><p>Certification of Web Development</p></div>
+      </div>
+    </div>
+  </section> <!-- ✅ properly closed the section -->
+
+  <br>
+
+  <section id="resume">
+    <h2>Resume / CV</h2>
+    <p class="resume-description">Here's a look at my professional experience and educational background.</p>
+
+    <div class="resume-container">
+      <iframe src="/resume/Holmes-Jovariel-D.-Valdez.pdf" type="application/pdf"></iframe>
     </div>
 
-    <div class="project-card">
-      <a href="/image/1d3dd493-fdbf-4d00-af8d-057720b5bd90.jpg" target="_blank">
-      <img src="/image/1d3dd493-fdbf-4d00-af8d-057720b5bd90.jpg" alt="Project 2">
+    <div class="resume-buttons">
+      <a href="/resume/Holmes-Jovariel-D.-Valdez.pdf" target="_blank" class="resume-btn">View in New Tab</a>
+      <a href="/resume/Holmes-Jovariel-D.-Valdez.pdf" download class="resume-btn">Download Resume</a>
+    </div>
+  </section>
+
+  <br>
+
+  <section id="contactme">
+    <div class="contact-wrapper">
+      <h2>Contact Me?</h2>
+      <p><i>Do you speak minion? it is okay if you don't,<br>I speak English too.</i></p>
+
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i> Like me on Facebook</a>
+        <a href="#"><i class="fab fa-github"></i> See my Github</a>
+        <a href="#"><i class="fab fa-linkedin-in"></i> Connect with me on LinkedIn</a>
+      </div>
+
+      <a href="https://www.youtube.com/watch?v=wCkerYMffMo" target="_blank">
+        <img src="/image/minion-with-megaphone.png" alt="Minion with Megaphone" class="avatar-image">
       </a>
-      <h3>JODAHO HAIRSTYLE RECOMMENDER SYSTEM</h3>
-      <p>An android application created using Java,Firebase, Machine Learning that recommends suitable for user</p>
-    </div>
 
-    <div class="project-card">
-      <a href="/image/Untitled.png" target="_blank">
-      <img src="/image/Untitled.png" alt="Movie selection page">
-      </a>
-      <h3>MOVIE SELECTION PAGE</h3>
-      <p>A web of movie selection using Javascript, HTML, CSS and Movie API</p>
-    </div>
+      <div class="form-box">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
 
-    <div class="project-card">
-      <a href="/image/dragon.png" target="_blank">
-      <img src="image/dragon.png" alt="Dragon">
-      </a>
-      <h3>DRAGON SLAYER</h3>
-      <p>A web game that allows user to fight the dragon, this was build using HTML, CSS, Javascript</p>
-    </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+          </div>
 
-    
-  </div>
-</section>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+          </div>
 
-    <br> 
-
-<section id="certificate">
-  <h2>Certifications</h2>
-
-  <div class="certificate-grid">
-    <div class="certificate-card">
-      <img src="/image/recpg.jpg" alt="Certificate of Recognition">
-      <div class="certificate-overlay">
-        <p>Certificate of Recognition</p>
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
 
-    <div class="certificate-card">
-      <img src="/image/top.png" alt="Certificate of Top Performer">
-      <div class="certificate-overlay">
-        <p>Top Performer Award</p>
+    <footer class="contact-footer">
+      <p>Prefer direct email? Reach out at 
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=holmesvaldezz@gmail.com&su=Connect US&body=I'd like to connect with you." target="_blank">holmesvaldezz@gmail.com</a>
+      </p>
+    </footer>
+  </section>
+
+  <footer class="footer-section">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p><i class="fas fa-envelope"></i> holmesvaldezz@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +63 9270129655</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <p>© <span id="year"></span> Holmes Jovariel D. Valdez</p>
+        <p>All rights reserved.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/yahbomes.23" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://github.com/yahboiholmes" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/holmes-jovariel-d-valdez-123224319" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
       </div>
     </div>
-
-    <div class="certificate-card">
-      <img src="/image/est (1).png" alt="EF-Set Certificate">
-      <div class="certificate-overlay">
-        <p>English Test</p>
-      </div>
-    </div>
-
-    <div class="certificate-card">
-      <img src="/image/certificate-of_1753844713.png" alt="Certificate of Completion">
-      <div class="certificate-overlay">
-        <p>Certification of Web Development</p>
-      </div>
-    </div>
-  </div>
-
-
-<footer class="footer-section">
-  <div class="footer-content">
-    <!-- Contact Info -->
-    <div class="footer-column">
-      <h4>Contact</h4>
-      <p><i class="fas fa-envelope"></i>holmesvaldezz@gmail.com</p>
-      <p><i class="fas fa-phone-alt"></i>+63 9270129655</p>
-    </div>
-
-    <!-- Legal Info + Socials -->
-    <div class="footer-column">
-      <h4>Legal</h4>
-      <p>© <span id="year"></span> Holmes Jovariel D. Valdez</p>
-      <p>All rights reserved.</p>
-      <div class="socials">
-        <a href="https://www.facebook.com/yahbomes.23" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://github.com/yahboiholmes" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="www.linkedin.com/in/holmes-jovariel-d-valdez-123224319" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-</section>
-
-    <br>
-
-   <section id="resume">
-  <h2>Resume / CV</h2>
-  <p class="resume-description">
-    Here's a look at my professional experience and educational background.
-    You can view or download my resume below.
-  </p>
-
-  <div class="resume-container">
-    <iframe src="/resume/Holmes-Jovariel-D.-Valdez.pdf" type="application/pdf"></iframe>
-  </div>
-
-  <div class="resume-buttons">
-    <a href="/resume/Holmes-Jovariel-D.-Valdez.pdf" target="_blank" class="resume-btn">View in New Tab</a>
-    <a href="/resume/Holmes-Jovariel-D.-Valdez.pdf" download class="resume-btn">Download Resume</a>
-  </div>
-</section>
-
-
-    <br>
-
-    <section id="contactme">
-  <div class="contact-wrapper">
-    <h2>Contact Me?</h2>
-    <p>Do you speak minion? it is okay if you don't,<br>I speak English too.</p>
-
-    <div class="social-links">
-      <a href="#"><i class="fab fa-facebook-f"></i> Like me on Facebook</a>
-      <a href="#"><i class="fab fa-github"></i> See my Github</a>
-      <a href="#"><i class="fab fa-linkedin-in"></i> Connect with me on LinkedIn</a>
-    </div>
-    <a href ="https://www.youtube.com/watch?v=wCkerYMffMo" target="_blank">
-    <img src="/image/minion-with-megaphone.png" alt="Minon with Megaphone" class="avatar-image">
-      </a>
-    <div class="form-box">
-      <form>
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name" required>
-  </div>
-
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email" required>
-  </div>
-
-  <div class="form-group">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
-  </div>
-
-  <button type="submit">Send</button>
-</form>
-
-    </div>
-  </div>
-  <footer class="contact-footer">
-    <p>Prefer direct email? Reach out at 
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=holmesvaldezz@gmail.com&su=Connect US&body=I'd like to connect with you."
-   target="_blank">holmesvaldezz@gmail.com</a>
-    </p>
   </footer>
-</section>
-   
-  </div>
-    <script src="script.js"></script>
+
+  <script>
+    // Set current year dynamically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js"></script>
 </body>
 </html>
